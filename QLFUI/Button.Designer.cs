@@ -33,9 +33,9 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 30);
@@ -47,6 +47,8 @@
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             this.label1.MouseEnter += new System.EventHandler(this.label1_MouseEnter);
+            this.label1.MouseHover += new System.EventHandler(this.label1_MouseHover);
+            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             // 
             // Button
             // 
@@ -57,7 +59,6 @@
             this.Name = "Button";
             this.Size = new System.Drawing.Size(78, 30);
             this.ResumeLayout(false);
-
         }
 
         #endregion

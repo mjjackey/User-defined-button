@@ -119,13 +119,23 @@ namespace QLFUI
         {
             this.BackgroundImage = _normalImage;
         }
-
-        
+      
         private void label1_Click(object sender, EventArgs e)
         {
             this.OnClick(e);
         }
 
+        /****************************MJ后添加*********************************/
+        private void label1_MouseHover(object sender, EventArgs e)
+        {
+            this.OnMouseHover(e);
+        }
+
+        private void label1_MouseMove(object sender,MouseEventArgs e)
+        {
+            this.OnMouseMove(e);
+        }
+        /******************************************************************/
         #endregion
 
     }
